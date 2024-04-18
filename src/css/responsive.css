@@ -1,0 +1,69 @@
+@media (max-width: 769px) {
+    body{
+        font-size: 16px;
+    }
+    .cabecalho{
+        padding: 0;
+    }
+    .cabecalho .menu {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .home .informacoes {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .home .invite{
+        padding-right: 0px;
+        visibility: hidden;
+        height: 0px;
+    }
+    .home .informacoes{
+        max-width: 80vw;
+        gap: 10px;
+    }
+    .home .informacoes h1{
+        font-size: 20px;
+    }
+    .home .informacoes h2{
+        font-size: 14px;;
+    }
+    .home .informacoes h3{
+        font-size: 14px;
+    }
+    .howtoplay{
+        align-items: center;
+    }
+    .howtoplay .title{
+        font-size: 18px;
+    }
+    .howtoplay .title2{
+        font-size: 18px;;
+    }
+    .howtoplay .informacoes{
+        width: 75vw;
+        justify-content: flex-start;
+    }
+    .howtoplay .informacoes h1{
+        font-size: 16px;
+    }
+    .howtoplay .informacoes a{
+        font-size: 16px;
+    }
+    .howtoplay .infoRoleplay{
+        width: 75vw;
+    }
+    .howtoplay .infoRoleplay h1{
+        font-size: 16px;
+    }
+    .howtoplay .info h1{
+        font-size: 14px;
+    }
+    .howtoplay .info a{
+        font-size: 14px;
+    }
+}
